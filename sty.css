@@ -1,0 +1,67 @@
+.fs{
+    font-family: "Montserrat";
+    color: #505050;
+    font-size: 18px;
+
+}
+
+.fs-s{
+    color: #C9BB78;
+    font-family: "Montserrat";
+    font-size: 18px;
+}
+.sh-table {
+    display: table;
+    width: 100%;
+}
+.sh-table-cell {
+    display: table-cell;
+    /*vertical-align: middle*/;
+    float: none!important;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: "Montserrat";
+    color: #505050;
+    font-weight: 200;
+}
+b, strong {
+    font-weight: 700;
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat",serif;
+    color: #3f3f3f;
+    font-weight: 700;
+    margin: 0 0 20px;
+    padding: 0;
+    line-height: normal!important;
+}
+
+p{
+    font-family: "Open Sans";
+}
+.post-title{
+    display: block;
+    word-break: break-word;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto ;
+}
+header{
+    display: block;
+}
+.container{
+    color: #ffffff;
+}
