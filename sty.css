@@ -171,6 +171,49 @@ b, strong {
     font-weight: 700;
 }
 
+.post-readmore-line {
+    width: 100%;
+    position: relative;
+}
+.sh-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    float: none!important;
+}
+.post-readmore-line-content {
+    /* content: ""; */
+    /* position: absolute; */
+    /* left: 15px; */
+    /* right: 15px; */
+    /* top: 50%; */
+    height: 1px;
+    background-color: #f0f0f0;
+}
+
+
+element.style {
+}
+.post-readmore-line-content {
+    /* content: ""; */
+    /* position: absolute; */
+    /* left: 15px; */
+    /* right: 15px; */
+    /* top: 50%; */
+    height: 1px;
+    background-color: #f0f0f0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.post-readmore {
+    white-space: nowrap;
+    margin-top: 5px;
+    min-height: 45px;
+}
+
 
 h2 {
     display: block;
@@ -420,7 +463,20 @@ h3 .widget-tittle
     border-radius: 50%;
 }
 
-.fa-twitter,.fa-instagram,.fa-facebook {
+.fa.fa2 {
+    padding: 20px;
+
+    width: 50px;
+    text-align: center;
+
+
+    border:1px solid grey
+}
+
+
+
+
+.fa-twitter,.fa-instagram,.fa-facebook,.fa-pinterest {
     background: transparent;
     color: grey;
     text-decoration: none;
@@ -448,6 +504,7 @@ h3 .widget-tittle
 
 .widget_tag_cloud a:hover{
     background-color:#c9bb7a ;
+    color: white;
     text-decoration: none;
 }
 .sh-footer-widgets ul a:hover{
@@ -455,7 +512,10 @@ h3 .widget-tittle
     text-decoration: none;
 }
 
-.sh-footer-widgets .widget_tag_cloud a,.sh-footer .sh-footer-widgets ul li,.sh-footer .sh-footer-widgets ul li {
+
+
+
+.sh-footer-widgets h3:not(.widget-tab-title):after,.sh-footer-widgets .widget_tag_cloud a,.sh-footer .sh-footer-widgets ul li,.sh-footer .sh-footer-widgets ul li {
     border-color: rgba(56,56,56,0.1);
 }
 h3.widget-tittle::after{
@@ -467,6 +527,17 @@ h3.widget-tittle::after{
 background-color: rgba(56,56,56,0.1);
 
 
+}*/
+/*
+.cat-item a::before{
+    content: ".";
+    font-size: 18px;
+   !* display: inline-block;*!
+   !* display: inline-block;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: -11px;*!
 }*/
 
 .sh-post-categories-style1 .cat-item a {
